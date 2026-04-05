@@ -1,7 +1,7 @@
 import requests
 
-base_url = "YOUR API KEY HERE"
-api_key = "39e57d485c45fbd2e20175b1"
+base_url = "https://v6.exchangerate-api.com/v6/"
+api_key = "YOUR API KEY HERE"
 
 def get_info(base_currency):
     url = f"{base_url}{api_key}/latest/{base_currency}"
